@@ -25,7 +25,7 @@ export default function Home() {
               Jarrod Watts
             </h1>
             <div className="flex items-center space-x-4">
-              <div className="flex space-x-2">
+              <div className="flex space-x-2 sm:space-x-4">
                 <Link
                   href="https://twitter.com/@jarrodwattsdev"
                   target="_blank"
@@ -96,11 +96,6 @@ export default function Home() {
                   <span className="sr-only">LinkedIn</span>
                 </Link>
               </div>
-              <div className="hidden sm:block">
-                <ModeToggle />
-              </div>
-            </div>
-            <div className="sm:hidden">
               <ModeToggle />
             </div>
           </div>
